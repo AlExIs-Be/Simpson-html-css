@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 222, 43);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(41, 147, 247);
+    color: white;
+    text-align: center;
+    max-height: 450px;
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-weight:700;
+    flex-direction: column;
+}
+
+#canapé{
+    display: flex;
+    object-fit: fill;
+    max-height: 500px; 
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: rgb(225, 200, 40);
+}
+
+footer{
+    background-color: rgb(38, 68, 167);
+    color: white;
+    text-align: center;
+    max-width: 1024px;
+    border: 5px solid rgb(38, 68, 167) ;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+main{
+    background-color: white;
+    display : flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1024px;
+    text-align: justify;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: rgb(41, 147, 247);
+    color: white;
+    text-align: center;
+    width: 200px;
+    overflow:inherit;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a{
+    color: white;
+}
+
+.bio{
+    background-color: rgb(41, 147, 247);
+    color: white;
+    width: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+
+.portrait{
+    max-width: 170px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article{
+    padding: 20px;
+}
